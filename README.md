@@ -98,7 +98,3 @@ python test_batch_inference.py
 The script sends multiple requests concurrently and checks whether the server batches them. The responses should indicate that batching is working correctly, and the total time taken should reflect the efficiency gains from batching.
 
 ---
-
-## Conclusion
-
-This repository demonstrates how to serve a **compiled Vicuna-7B model** using **FastAPI** with **dynamic batching**. Dynamic batching improves the efficiency of model inference, especially when handling multiple requests concurrently, by grouping them together into a single batch for processing. This technique can significantly reduce inference latency and maximize resource utilization.
