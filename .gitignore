@@ -1,4 +1,9 @@
+# Model files
+vicuna_7b_FP16_K_M.gguf
+
 # Byte-compiled / optimized / DLL files
+.DS_Store
+.idea/
 __pycache__/
 *.py[cod]
 *$py.class
